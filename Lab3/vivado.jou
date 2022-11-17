@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jun 25 14:32:41 2022
+# Process ID: 27924
+# Current directory: C:/Users/User/Desktop/Vivado/Lab3.1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent35448 C:\Users\User\Desktop\Vivado\Lab3.1\Lab3.1.xpr
+# Log file: C:/Users/User/Desktop/Vivado/Lab3.1/vivado.log
+# Journal file: C:/Users/User/Desktop/Vivado/Lab3.1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/User/Desktop/Vivado/Lab3.1/Lab3.1.xpr
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/User/Desktop/Vivado/Lab3.1/Lab3.1.srcs/sim_1/new/TB_RCA.vhd w ]
+add_files -fileset sim_1 C:/Users/User/Desktop/Vivado/Lab3.1/Lab3.1.srcs/sim_1/new/TB_RCA.vhd
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files C:/Users/User/Desktop/Vivado/Lab3.1/Lab3.1.srcs/sim_1/new/TB_RCA.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/User/Desktop/Vivado/Lab3.1/Lab3.1.srcs/sim_1/new/TB_RCA.vhd

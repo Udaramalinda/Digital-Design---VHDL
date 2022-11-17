@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="AU_Sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="AU_Sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999993908fs"></ZoomStartTime>
+      <ZoomEndTime time="1000001579fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="80"></NameColumnWidth>
+      <ValueColumnWidth column_width="166"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/AU_Sim/A" type="array">
+      <obj_property name="ElementShortName">A[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AU_Sim/S" type="array">
+      <obj_property name="ElementShortName">S[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AU_Sim/RegSel" type="logic">
+      <obj_property name="ElementShortName">RegSel</obj_property>
+      <obj_property name="ObjectShortName">RegSel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AU_Sim/Zero" type="logic">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AU_Sim/Carry" type="logic">
+      <obj_property name="ElementShortName">Carry</obj_property>
+      <obj_property name="ObjectShortName">Carry</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AU_Sim/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AU_Sim/UUT/slow_clock" type="logic">
+      <obj_property name="ElementShortName">slow_clock</obj_property>
+      <obj_property name="ObjectShortName">slow_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AU_Sim/UUT/En_A" type="logic">
+      <obj_property name="ElementShortName">En_A</obj_property>
+      <obj_property name="ObjectShortName">En_A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AU_Sim/UUT/En_B" type="logic">
+      <obj_property name="ElementShortName">En_B</obj_property>
+      <obj_property name="ObjectShortName">En_B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AU_Sim/UUT/Q_A" type="array">
+      <obj_property name="ElementShortName">Q_A[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_A[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AU_Sim/UUT/Q_B" type="array">
+      <obj_property name="ElementShortName">Q_B[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_B[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AU_Sim/UUT/S_RCA" type="array">
+      <obj_property name="ElementShortName">S_RCA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_RCA[3:0]</obj_property>
+   </wvobject>
+</wave_config>

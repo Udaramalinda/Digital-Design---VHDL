@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Jun 16 20:16:33 2022
+# Process ID: 157676
+# Current directory: C:/Users/User/Desktop/Vivado/Lab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent152744 C:\Users\User\Desktop\Vivado\Lab6\Lab6.xpr
+# Log file: C:/Users/User/Desktop/Vivado/Lab6/vivado.log
+# Journal file: C:/Users/User/Desktop/Vivado/Lab6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/User/Desktop/Vivado/Lab6/Lab6.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/User/Desktop/Vivado/Lab6/AU_Sim_behav.wcfg
+source AU_Sim.tcl
+close_sim

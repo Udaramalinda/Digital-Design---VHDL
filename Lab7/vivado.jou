@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Jun 30 08:54:57 2022
+# Process ID: 60836
+# Current directory: C:/Users/User/Desktop/Vivado/Lab7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent60132 C:\Users\User\Desktop\Vivado\Lab7\Lab7.xpr
+# Log file: C:/Users/User/Desktop/Vivado/Lab7/vivado.log
+# Journal file: C:/Users/User/Desktop/Vivado/Lab7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/User/Desktop/Vivado/Lab7/Lab7.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top AU_7_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source AU_7_sim.tcl
+close_sim

@@ -1,0 +1,86 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jun 21 09:41:17 2022
+# Process ID: 960
+# Current directory: C:/Users/User/Desktop/Vivado/Lab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1288 C:\Users\User\Desktop\Vivado\Lab6\Lab6.xpr
+# Log file: C:/Users/User/Desktop/Vivado/Lab6/vivado.log
+# Journal file: C:/Users/User/Desktop/Vivado/Lab6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+opeopen_project C:/Users/User/Desktop/Vivado/Lab6/Lab6.xupdupdate_compile_order -fileset sourceslauupdate_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+cfg
+source AU_Sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/User/Desktop/Vivado/Lab6/AU_Sim_behav.wcfg
+source AU_Sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/User/Desktop/Vivado/Lab6/AU_Sim_behav.wcfg
+source AU_Sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/User/Desktop/Vivado/Lab6/AU_Sim_behav.wcfg
+source AU_Sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/User/Desktop/Vivado/Lab6/AU_Sim_behav.wcfg
+source AU_Sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/User/Desktop/Vivado/Lab6/AU_Sim_behav.wcfg
+source AU_Sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/User/Desktop/Vivado/Lab6/AU_Sim_behav.wcfg
+source AU_Sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/User/Desktop/Vivado/Lab6/AU_Sim_behav.wcfg
+source AU_Sim.tcl
+export_ip_user_files -of_objects  [get_files C:/Users/User/Desktop/Vivado/Lab6/AU_Sim_behav.wcfg] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/User/Desktop/Vivado/Lab6/AU_Sim_behav.wcfg
+close_sim
+launch_simulation
+source AU_Sim.tcl
+close_sim
+launch_simulation
+source AU_Sim.tcl
+close_sim
+launch_simulation
+source AU_Sim.tcl
+close_sim
+launch_simulation
+source AU_Sim.tcl
+close_sim
+launch_simulation
+source AU_Sim.tcl
+close_sim
+launch_simulation
+source AU_Sim.tcl
+close_sim
+launch_simulation
+source AU_Sim.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source AU_Sim.tcl
+relaunch_sim
+current_wave_config {Untitled 8}
+add_wave {{/AU_Sim/UUT/Reg_A}} 
+current_wave_config {Untitled 8}
+add_wave {{/AU_Sim/UUT/Reg_B}} 
+save_wave_config {C:/Users/User/Desktop/Vivado/Lab6/AU_Sim_behav1.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/User/Desktop/Vivado/Lab6/AU_Sim_behav1.wcfg
+set_property xsim.view {C:/Users/User/Desktop/Vivado/Lab6/AU_Sim_behav.wcfg C:/Users/User/Desktop/Vivado/Lab6/AU_Sim_behav1.wcfg} [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config C:/Users/User/Desktop/Vivado/Lab6/AU_Sim_behav1.wcfg
+source AU_Sim.tcl
+save_wave_config {C:/Users/User/Desktop/Vivado/Lab6/AU_Sim_behav1.wcfg}
+close_sim

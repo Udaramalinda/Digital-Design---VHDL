@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jun  7 23:10:26 2022
+# Process ID: 113248
+# Current directory: C:/Users/User/Desktop/Vivado/Lab3.1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent93252 C:\Users\User\Desktop\Vivado\Lab3.1\Lab3.1.xpr
+# Log file: C:/Users/User/Desktop/Vivado/Lab3.1/vivado.log
+# Journal file: C:/Users/User/Desktop/Vivado/Lab3.1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/User/Desktop/Vivado/Lab3.1/Lab3.1.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+synth_design -rtl -name rtl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top RCA_4 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1

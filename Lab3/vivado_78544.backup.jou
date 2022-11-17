@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Jun  2 13:21:33 2022
+# Process ID: 78544
+# Current directory: C:/Users/User/Desktop/Vivado/Lab3.1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent85000 C:\Users\User\Desktop\Vivado\Lab3.1\Lab3.1.xpr
+# Log file: C:/Users/User/Desktop/Vivado/Lab3.1/vivado.log
+# Journal file: C:/Users/User/Desktop/Vivado/Lab3.1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/User/Desktop/Vivado/Lab3.1/Lab3.1.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir C:/Users/User/Desktop/Vivado/IPs -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false
+ipx::unload_core c:/Users/User/Desktop/Vivado/IPs/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/Users/User/Desktop/Vivado/IPs c:/Users/User/Desktop/Vivado/IPs/component.xml
+current_project Lab3.1
+current_project tmp_edit_project
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property previous_version_for_upgrade xilinx.com:user:FA:1.0 [ipx::current_core]
+set_property core_revision 1 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+set_property  ip_repo_paths  c:/Users/User/Desktop/Vivado/IPs [current_project]
+update_ip_catalog
